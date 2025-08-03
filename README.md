@@ -74,9 +74,9 @@ Two modes are available for analyzing detected components:
 
 ## **Results**
 
-Original Image: ![Original Image](https://raw.githubusercontent.com/dhiwise/image-to-code/main/frontend/public/images/1.png)
+Original Image: ![Original Image](results/vlc_org.png)
 
-Generated UI: ![Generated Code](https://raw.githubusercontent.com/dhiwise/image-to-code/main/frontend/public/images/2.png)
+Generated UI: ![Generated UI from Code](results/vlc_gen.png)
 
 ## **Installation and Setup**
 
