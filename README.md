@@ -74,9 +74,9 @@ Two modes are available for analyzing detected components:
 
 ## **Results**
 
-Original Image: ![Original Image](results/vlc_org.png)
-
-Generated UI: ![Generated UI from Code](results/vlc_gen.png)
+| Original Image | Generated UI |
+|:-------------:|:------------:|
+| <img src="results/vlc_org.png" alt="Original Image" width="350"/> | <img src="results/vlc_gen.png" alt="Generated UI from Code" width="350"/> |
 
 ## **Installation and Setup**
 
