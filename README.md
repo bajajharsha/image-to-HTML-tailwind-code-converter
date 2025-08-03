@@ -98,8 +98,7 @@ Before installing the application, ensure to have the following software and acc
 Follow these steps to clone and set up the repository:
 
 ```bash
-git clone https://gitlab.dhiwise.com/internship_program_2025/group-project-1/image-to-html-team-2
-cd image-to-html-team-2
+git clone https://github.com/bajajharsha/image-to-HTML-tailwind-code-converter
 ```
 
 ## **Backend Setup**
