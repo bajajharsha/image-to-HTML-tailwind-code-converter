@@ -53,50 +53,7 @@ Two modes are available for analyzing detected components:
 ### **6. Real-time Streaming (Optional)**
 - **Live Updates**: Shows code generation progress in real-time
 - **Phase Tracking**: Updates users on current processing stage
-- **Streaming Response**: Delivers generated code incrementally for better user experience
-
-## **System Architecture**
-
-### **Backend Architecture (FastAPI)**
-
-```
-backend/
-├── main.py                 # FastAPI application entry point
-├── app/
-│   ├── config/            # Configuration and database setup
-│   │   ├── database.py    # MongoDB connection management
-│   │   └── settings.py    # Environment variables and settings
-│   ├── controllers/       # API endpoint controllers
-│   │   └── convert_controller.py  # Main conversion logic
-│   ├── models/           # Data models and schemas
-│   │   ├── domain/       # Domain entities
-│   │   └── schemas/      # Pydantic schemas for API
-│   ├── prompts/          # AI prompt templates
-│   │   ├── bbox.py       # Bounding box detection prompts
-│   │   ├── code_generation_prompt.py  # Code generation prompts
-│   │   ├── combine_html_prompt.py     # HTML combination prompts
-│   │   └── description_generation.py  # Description generation prompts
-│   ├── repositories/     # Data access layer
-│   │   ├── error_repository.py      # Error logging
-│   │   └── llm_usage_repository.py  # LLM usage tracking
-│   ├── routes/          # API route definitions
-│   │   └── convert_route.py  # Conversion endpoints
-│   ├── services/        # External service integrations
-│   │   ├── api_service.py    # Generic API service
-│   │   ├── claude_service.py # Anthropic Claude integration
-│   │   └── gemini_service.py # Google Gemini integration
-│   ├── usecases/        # Business logic layer
-│   │   ├── bbox/        # Bounding box generation
-│   │   ├── code_generation/      # HTML/CSS code generation
-│   │   ├── combined_html/        # Multi-image HTML combination
-│   │   ├── description_generation/  # Component description
-│   │   ├── image_segmentation/   # Image preprocessing
-│   │   └── single_image_usecase/ # Single image processing
-│   └── utils/           # Utility functions
-│       ├── context_util.py    # Request context management
-│       ├── error_handler.py   # Error handling utilities
-│       └── parsing_util.py    # Data parsing utilities
-```
+- **Streaming Response**: Delivers generated code incrementally for a better user experience
 
 ## **Technology Stack**
 
