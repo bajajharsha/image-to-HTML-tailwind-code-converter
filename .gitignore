@@ -1,0 +1,7 @@
+venv
+.env
+__pychache__
+__/
+.DS_Store
+uploads
+.venv

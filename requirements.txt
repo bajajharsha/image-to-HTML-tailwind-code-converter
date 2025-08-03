@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+google-genai
+anthropic
+Pillow
+opencv-python
+python-dotenv
+pydantic_settings
+python-multipart
+Web-page-Screenshot-Segmentation
+aiofiles
+motor
+colorthief
